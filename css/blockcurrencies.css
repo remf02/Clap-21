@@ -1,0 +1,32 @@
+#currencies-block-top {
+  float: left;
+  position: relative;
+  margin-right: 23px;}
+  #currencies-block-top span.firstWord {
+    display: none; }
+    #currencies-block-top div.current:after {
+      content: "\f0d7";
+      font-family: "FontAwesome";
+      font-size: 12px;
+      line-height: 18px;
+      color: #a0a0a0;
+      vertical-align: 1px;
+      padding-left: 7px;
+      }
+      @media (max-width: 479px) {
+        #currencies-block-top div.current:after {
+          padding-left: 2px;
+          font-size: 13px;
+          line-height: 13px;
+          vertical-align: 0; } }
+    @media (max-width: 479px) {}
+  #currencies-block-top ul {
+    display: none;
+position: absolute;
+top: 20px;
+right: -6px;
+z-index: 30;}
+    #currencies-block-top ul li {
+      margin-top: 5px;
+    }
+      
